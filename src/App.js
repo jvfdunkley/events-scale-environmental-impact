@@ -33,12 +33,12 @@ function App() {
           <p class="numbers" style={{position: "absolute",fontSize: "4rem", bottom: "26%", left: "16%", color: "white"}}>{kilos !== "" ?(parseFloat(kilos.replace(",", ".")) * 196.39).toFixed(2).toString().replace(".", ","): 0.00}</p>
         </div>
         <div>
-          <p class="numbers" style={{position: "absolute", fontSize: "5rem", top: "58%", left: "39.5%"}}>{kilos !== "" ? (parseFloat(kilos.replace(",", ".")) * 110.10).toFixed(2).toString().replace(".", ","): 0.00}</p>
-          <p class="numbers" style={{position: "absolute", fontSize: "4rem", top: "64.7%", left: "47.7%", color: "white"}}>{kilos !== "" ? (parseFloat(kilos.replace(",", ".")) * 22.60).toFixed(2).toString().replace(".", ","): 0.00}</p>
+        <p class="numbers" style={{position: "absolute", fontSize: "5rem", top: "58%", left: "39.5%"}}>{kilos !== "" ? (parseFloat(kilos.replace(",", ".")) * 22.60).toFixed(2).toString().replace(".", ","): 0.00}</p>
+          <p class="numbers" style={{position: "absolute", fontSize: "4rem",  top: "64.7%", left: "47.7%", color: "white"}}>{kilos !== "" ? (parseFloat(kilos.replace(",", ".")) * 110.10).toFixed(2).toString().replace(".", ","): 0.00}</p>
         </div>
         <div>
-          <p class="numbers" style={{position: "absolute", fontSize: "5rem", top: "58.2%", left: "67.5%"}}>{kilos !== "" ? (parseFloat(kilos.replace(",", ".")) * 2403.85).toFixed(2).toString().replace(".", ","): 0.00}</p>
-          <p class="numbers" style={{position: "absolute", fontSize: "4rem", top: "64.7%", left: "78%", color: "white"}}>{kilos !== "" ? (parseFloat(kilos.replace(",", ".")) * 14.9).toFixed(2).toString().replace(".", ","): 0.00}</p>
+        <p class="numbers" style={{position: "absolute", fontSize: "5rem", top: "58.2%", left: "69.5%"}}>{kilos !== "" ? (parseFloat(kilos.replace(",", ".")) * 14.9).toFixed(2).toString().replace(".", ","): 0.00}</p>
+          <p class="numbers" style={{position: "absolute", fontSize: "4rem", top: "64.7%", left: "77.5%", color: "white"}}>{kilos !== "" ? (parseFloat(kilos.replace(",", ".")) * 2403.85).toFixed(2).toString().replace(".", ","): 0.00}</p>
         </div>
       </header>
     </div>
