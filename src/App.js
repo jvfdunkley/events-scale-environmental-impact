@@ -19,7 +19,7 @@ function App() {
         <div style={{position: "relative", top: 170, right: 50, fontFamily:"roc-grotesk"}}>
           <p class="title">
           <input name="user-name" type="string" placeholder="kilos" value={kilos} autoFocus onChange={(e) => {  setKilos(e.target.value)}}/> 
-          kg = {kilos !== "" ? (parseFloat(kilos.replace(",", ".")) * 40).toFixed(2).toString().replace(".", ","): 0.00} €
+          kg = {kilos !== "" ? (parseFloat(kilos.replace(",", ".")) * 45).toFixed(2).toString().replace(".", ","): 0.00} €
           </p>
         </div>
         <div style={{display: "flex", flexDirection: "row", justifyContent: "space-around", paddingTop: 60}}>
